@@ -1,0 +1,33 @@
+{
+  "name": "codecept",
+  "version": "1.0.0",
+  "description": "codecept tests for TB CRM",
+  "main": "steps_file.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "codeceptjs run --steps"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sabau/cedecept.git"
+  },
+  "keywords": [
+    "codecept",
+    "testing",
+    "page",
+    "objects"
+  ],
+  "author": "szabo.karoly.a@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sabau/cedecept/issues"
+  },
+  "homepage": "https://github.com/sabau/cedecept#readme",
+  "dependencies": {
+    "codeceptjs": "^1.0.1",
+    "nightmare": "^2.10.0",
+    "nightmare-upload": "^0.1.1"
+  }
+}

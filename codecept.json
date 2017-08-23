@@ -1,0 +1,22 @@
+{
+  "output": "logs",
+  "helpers": {
+    "Nightmare": {
+      "url": "http://127.0.0.1:8080"
+    }
+  },
+  "include": {
+    "I": "./steps_file.js",
+    "loginPage": "./pages/Login.js",
+    "mainPage": "./pages/Main.js",
+    "mainMenuFragment": "./fragments/MainMenu.js",
+    "navbarFragment": "./fragments/Navbar.js"
+  },
+  "mocha": {},
+  "bootstrap": false,
+  "teardown": null,
+  "hooks": [],
+  "tests": "tests/*_test.js",
+  "timeout": 90000,
+  "name": "codecept"
+}
