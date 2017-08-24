@@ -2,7 +2,13 @@
   "output": "logs",
   "helpers": {
     "Nightmare": {
-      "url": "http://127.0.0.1:8080"
+      "url": "http://127.0.0.1:8080",
+      "width": 1900,
+      "height": 1200,
+      "waitTimeout": 20000,
+      "waitForAction": 2000,
+      "waitForTimeout": 20000
+
     }
   },
   "include": {

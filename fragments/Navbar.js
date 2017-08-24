@@ -17,23 +17,26 @@ module.exports = {
         });
     },
     
-    cleanCache()  {
+    cleanCache() {
         within(this.root, function() {
             this._openMenu();
+            I.waitForVisible('#cache');
             I.click('#cache');
         });
     },
     
-    logout()  {
+    logout() {
         within(this.root, function() {
             this._openMenu();
+            I.waitForVisible('#logout');
             I.click('#logout');
         });
     },
     
-    impersonate()  {
+    impersonate() {
         within(this.root, function() {
             this._openMenu();
+            I.waitForVisible('#impersonate');
             I.click('#impersonate');
         });
     },
