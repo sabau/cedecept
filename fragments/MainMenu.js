@@ -10,7 +10,7 @@ module.exports = {
     },
     
     root: '#sidebar-left',
-    menu: "#menuContent",
+    menu: '#menuContent',
     
     clickMenu(menu, submenu) {
         within(this.root, function() {
