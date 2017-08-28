@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sabau/cedecept.git"
+    "url": "http://devlab.trueblue.it/karoly.szabo/codeceptjs.git"
   },
   "keywords": [
     "codecept",
@@ -22,9 +22,9 @@
   "author": "szabo.karoly.a@gmail.com",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/sabau/cedecept/issues"
+    "url": "http://devlab.trueblue.it/karoly.szabo/codeceptjs/issues"
   },
-  "homepage": "https://github.com/sabau/cedecept#readme",
+  "homepage": "http://devlab.trueblue.it/karoly.szabo/codeceptjs#readme",
   "dependencies": {
     "codeceptjs": "^1.0.1",
     "nightmare": "^2.10.0",
