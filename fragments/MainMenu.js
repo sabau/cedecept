@@ -24,6 +24,7 @@ module.exports = {
     
     isLoaded() {
         let _this = this;
+        I.waitForElement(this.root);
         within(this.root, function() {
             I.waitForElement(_this.menu);
         });
